@@ -554,7 +554,7 @@ export const projects = [
     tags: ["PHP", "Excel", "PhotoShop",],
     category: "php",
     github: "#",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    webapp: "https://verify.skillinstituto.com/",
     member: [
       {
         name: "V Bhanu Teja",
