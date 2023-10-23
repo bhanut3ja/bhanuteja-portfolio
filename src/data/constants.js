@@ -8,13 +8,13 @@ export const Bio = {
     "Graphic Designer",
   ],
   description:
-    "I am skilled in HTML, CSS, Bootstrap, React, WordPress, Git, AbobeXD, Figma, and PHP, MySQL. With expertise in front-end development using HTML, CSS, and Bootstrap, I can create a visually appealing and responsive websites. Additionally, I am Proficient in React and PHP, enabling me to build interactive and dynamic user interfaces. My knowledge of wordpress allows me to design and customize websites efficiently, I am also familiar with git version control and AdobeXD and Figma for creating visually stunning mockups and prototypes.",
+    "I am skilled in HTML, CSS, Bootstrap, React, WordPress, Git, AbobeXD, Figma, PHP, and, MySQL. With expertise in front-end development using HTML, CSS, and Bootstrap, I can create a visually appealing and responsive websites. Additionally, I am Proficient in React and PHP, enabling me to build interactive and dynamic user interfaces. My knowledge of wordpress allows me to design and customize websites efficiently, I am also familiar with git version control and AdobeXD and Figma for creating visually stunning mockups and prototypes.",
   github: "https://github.com/bhanut3ja",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hackerteja/",
   insta: "https://instagram.com/hackerteja/",
-  // facebook: "https://www.facebook.com/rishav.chanda.165/",
+  // facebook: "#",
 };
 
 export const skills = [
@@ -28,7 +28,7 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://images.ctfassets.net/qu3b5yecwxi8/48dbpUkzGMeo4mSQuwsUas/6d0793fa469c9b49e28e4840532e1b04/CSS3.png",
       },
       {
         name: "JavaScript",
@@ -40,11 +40,11 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
+      // {
+      //   name: "Redux",
+      //   image:
+      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      // },
       {
         name: "Bootstrap",
         image:
@@ -107,12 +107,42 @@ export const skills = [
     ],
   },
   {
+    title: "Testing",
+    skills: [
+      {
+        name: "Manual Testing",
+        image:
+          "https://enable.health.nsw.gov.au/__data/assets/image/0003/890301/UserGuide.png",
+      },
+    ],
+  },
+  {
+    title: "Operating Systems",
+    skills: [
+      {
+        name: "Kali Linux",
+        image:
+          "https://seeklogo.com/images/K/kali-linux-logo-AED181186E-seeklogo.com.png",
+      },
+      {
+        name: "Windows",
+        image:
+          "https://logowik.com/content/uploads/images/windows-116906.jpg",
+      },
+    ],
+  },
+  {
     title: "Designing",
     skills: [
       {
         name: "PhotoShop",
         image:
           "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg",
+      },
+      {
+        name: "Illustrator",
+        image:
+          "https://logos-download.com/wp-content/uploads/2020/06/Adobe_Illustrator_Logo.png",
       },
       {
         name: "Adobe XD",
@@ -140,14 +170,30 @@ export const skills = [
           "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
       },
       {
-        name: "WordPress Securities",
-        image:
-          "https://jooinn.com/images/protection-1.jpg",
-      },
-      {
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "WP Securities",
+        image:
+          "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
+      },
+      
+      {
+        name: "WPRest API",
+        image:
+          "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
+      },
+      {
+        name: "WP Multisite ",
+        image:
+          "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
+      },
+      {
+        name: "WPCLI",
+        image:
+          "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
       },
       {
         name: "Netlify",
@@ -158,7 +204,7 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
+      },      
       {
         name: "Postman",
         image:
@@ -182,7 +228,7 @@ export const experiences = [
     role: "Front-End Developer",
     company: "Skill Instituto IT Services",
     date: "Jan 2018 - Present",
-    desc: "Working on All kind of front-end projects using wordpress and react",
+    desc: "I specialize in WordPress and React, working on various front-end projects.",
     skills: [
       "HTML",
       "CSS",
@@ -190,6 +236,9 @@ export const experiences = [
       "JavaScript",
       "React",
       "PHP",
+      "MySQL",
+      "FireBase",
+      "WP Multisite",
       "Adobe XD",
       "Figma",
     ],  
@@ -208,21 +257,21 @@ export const education = [
   },
   // {
   //   id: 1,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2019 - Apr 2025",
-  //   grade: "88.2%",
-  //   desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-  //   degree: "ISC(XII), Science with Computer",
+  //   img: "#,
+  //   school: "",
+  //   date: "",
+  //   grade: "",
+  //   desc: "",
+  //   degree: "",
   // },
   // {
   //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2017 - Apr 2019",
-  //   grade: "92.3%",
-  //   desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-  //   degree: "ICSC(X), Science with Computer",
+  //   img: "#,
+  //   school: "",
+  //   date: "",
+  //   grade: "",
+  //   desc: "",
+  //   degree: "",
   // },
 ];
 

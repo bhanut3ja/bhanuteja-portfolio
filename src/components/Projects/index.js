@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps. Here are some of my projects.
+          I have worked on a wide range of projects. Some Projects are not mentioned due to terms and conditions. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -32,6 +32,7 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="react" onClick={() => setToggle('react')}>React</ToggleButton>
           }
+          
           <Divider />
           {toggle === 'php' ?
             <ToggleButton active value="php" onClick={() => setToggle('php')}>PHP</ToggleButton>

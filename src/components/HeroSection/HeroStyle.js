@@ -134,7 +134,7 @@ export const Title = styled.div`
 export const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
-  display: flex;
+  display: block;
   justify-content: center;
   text-align: center;
   gap: 12px;
