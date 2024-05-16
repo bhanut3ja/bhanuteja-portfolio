@@ -222,7 +222,7 @@ const index = ({ openModal, setOpenModal }) => {
                     <Desc>{project?.description}</Desc>
                     {project.member && (
                         <>
-                            <Label>Designed By</Label>
+                            <Label>Developed By</Label>
                             <Members>
                                 {project?.member.map((member) => (
                                     <Member>

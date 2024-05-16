@@ -14,6 +14,10 @@ const Projects = ({openModal,setOpenModal}) => {
         <Desc>
           I have worked on a wide range of projects. Some Projects are not mentioned due to terms and conditions. Here are some of my projects.
         </Desc>
+        <Desc>
+        <h5>Note : - If Application is not opening that means clients stopped their online services</h5>
+         
+        </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
@@ -26,12 +30,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="wordpress" onClick={() => setToggle('wordpress')}>WordPress</ToggleButton>
           }
-          <Divider />
+          {/* <Divider />
           {toggle === 'react' ?
             <ToggleButton active value="react" onClick={() => setToggle('react')}>React</ToggleButton>
             :
             <ToggleButton value="react" onClick={() => setToggle('react')}>React</ToggleButton>
-          }
+          } */}
           
           <Divider />
           {toggle === 'php' ?

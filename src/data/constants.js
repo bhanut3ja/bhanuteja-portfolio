@@ -147,12 +147,12 @@ export const skills = [
       {
         name: "Adobe XD",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://helpx.adobe.com/content/dam/help/mnemonics/xd_app_RGB_2017.svg",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/400px-Figma-logo.svg.png",
       },
       {
         name: "Canva",
@@ -167,7 +167,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
       },
       {
         name: "GitHub",
@@ -208,7 +208,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
       },
       {
         name: "Ethical Hacking",
@@ -224,10 +224,32 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/D4D0BAQHrHFo1rsxWNw/company-logo_200_200/0/1680247152522/makreate_logo?e=1723680000&v=beta&t=ofv99BiUjXrK3yB4c9uSKLXTXYlT-vZmXURqC6PoinM",
+    role: "Front-End Developer",
+    company: "Makreate",
+    date: "Nov 2023 - Present · 7 mos",
+    desc: "👋 Hello there, I’m Bhanu Teja, WordPress developer passionate about turning complex issues into simple, beautiful, and intuitive website designs.🌐💻 Font-end expert, quick learner, and team player - these traits best describe me. I'm also skilled in",
+    skills: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "React",
+      "PHP",
+      "MySQL",
+      "FireBase",
+      "WP Multisite",
+      "Adobe XD",
+      "Figma",
+    ],  
+  },
+
+  {
+    id: 0,
     img: "https://skillinstituto.com/wp-content/uploads/2023/09/SIITS-Mockup-2.png",
     role: "Front-End Developer",
     company: "Skill Instituto IT Services",
-    date: "Jan 2018 - Present",
+    date: "Jan 2019 - Oct 2023 · 4 yrs 10 mos",
     desc: "I specialize in WordPress and React, working on various front-end projects.",
     skills: [
       "HTML",
@@ -246,15 +268,15 @@ export const experiences = [
 ];
 
 export const education = [
-  {
-    id: 0,
-    img: "data:image/png;base64,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",
-    school: "Kakinada Institute of Technology and Science (KITS)",
-    date: "Jun 2020 - Apr 2024",
+  // {
+  //   id: 0,
+  //   img: "",
+  //   school: "",
+  //   date: "",
     
-    desc: "I am currently pursuing a Bachelor's of Engineering in Computer Science and Engineering in Kakinada Institute of Technology and Science (KITS). Where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "BTech, Computer Science and Engineering",
-  },
+  //   desc: "",
+  //   degree: "",
+  // },
   // {
   //   id: 1,
   //   img: "#,
@@ -442,6 +464,118 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 12,
+    title: "Shabbir Enterprices",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "Our journey was inspired by the vision to provide all hardware solutions under one roof.",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://shabbirenterprises.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: "Sabana Traders LLC",
+    date: "Nov 2023 - Dec 2023",
+    description:
+      "Sabana Traders brings 50 years of expertise and knowledge in electrical equipment’s. We are one of UAE’s leading distributors for fuses, carbon brushes, heaters and insulation materials.",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "http://sabanatraders.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 14,
+    title: "SSE Metals",
+    date: "Apr 2024 - May 2024",
+    description:
+      "",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://ssemetals.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "LIFMEX",
+    date: "Apr 2024 - May 2024",
+    description:
+      "Lifmex Industries was established in 2010 with a strong focus on manufacturing lifting chains and their accessories. As time progressed and the quality of our brand was well-established in the market, it was time to have a larger prospect, aiming to have a global footprint in the category of lifting, rigging and material handling equipment.",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://lifmex.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
   // React
   {
     id: 4,
@@ -451,7 +585,7 @@ export const projects = [
       "Welcome to the Cybershah Software Solutions, The cybershah software solutions. In an era marked by escalating cyber threats targeting businesses, the urgency to invest in cybersecurity education has never been greater.",
     
     tags: ["React Js", "Firebase"],
-    category: "react",
+    category: "wordpress",
     github: "#",
     webapp: "https://cybershahsoftwaresolutions.com/",
     member: [
