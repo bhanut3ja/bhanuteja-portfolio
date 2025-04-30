@@ -66,11 +66,6 @@ export const skills = [
           "https://www.php.net//images/logos/new-php-logo.svg",
       },
       {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
@@ -184,17 +179,7 @@ export const skills = [
         name: "WPRest API",
         image:
           "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
-      },
-      {
-        name: "WP Multisite ",
-        image:
-          "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
-      },
-      {
-        name: "WPCLI",
-        image:
-          "https://freepngimg.com/thumb/wordpress_logo/5-2-wordpress-logo-free-download-png.png",
-      },
+      },     
       {
         name: "Netlify",
         image:
@@ -208,7 +193,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+          "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
       },
       {
         name: "Ethical Hacking",
@@ -224,10 +209,10 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQHrHFo1rsxWNw/company-logo_200_200/0/1680247152522/makreate_logo?e=1723680000&v=beta&t=ofv99BiUjXrK3yB4c9uSKLXTXYlT-vZmXURqC6PoinM",
-    role: "Front-End Developer",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHrHFo1rsxWNw/company-logo_200_200/company-logo_200_200/0/1680247152522/makreate_logo?e=2147483647&v=beta&t=ti_3vr6YUFOGwUs6UPJ7GUk7SebMNg1OONN5lTzsYjk",
+    role: "No-Code Developer",
     company: "Makreate",
-    date: "Nov 2023 - Present · 7 mos",
+    date: "Nov 2023 - Present ·  1 yrs 6 mos",
     desc: "👋 Hello there, I’m Bhanu Teja, WordPress developer passionate about turning complex issues into simple, beautiful, and intuitive website designs.🌐💻 Font-end expert, quick learner, and team player - these traits best describe me. I'm also skilled in",
     skills: [
       "HTML",
@@ -245,12 +230,12 @@ export const experiences = [
   },
 
   {
-    id: 0,
+    id: 1,
     img: "https://skillinstituto.com/wp-content/uploads/2023/09/SIITS-Mockup-2.png",
-    role: "Front-End Developer",
+    role: "Wordpress Developer",
     company: "Skill Instituto IT Services",
-    date: "Jan 2019 - Oct 2023 · 4 yrs 10 mos",
-    desc: "I specialize in WordPress and React, working on various front-end projects.",
+    date: "Nov 2019 - Oct 2023 · 4 yrs",
+    desc: "",
     skills: [
       "HTML",
       "CSS",
@@ -263,7 +248,29 @@ export const experiences = [
       "WP Multisite",
       "Adobe XD",
       "Figma",
-    ],  
+    ], 
+  },
+
+  {
+    id: 2,
+    img: "https://skillinstituto.com/wp-content/uploads/2023/09/SIITS-Mockup-2.png",
+    role: "Wordpress Internship",
+    company: "Skill Instituto IT Services",
+    date: "MAY 2019 - Oct 2019 · 6 mos",
+    desc: "",
+    skills: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "React",
+      "PHP",
+      "MySQL",
+      "FireBase",
+      "WP Multisite",
+      "Adobe XD",
+      "Figma",
+    ], 
   },
 ];
 
@@ -298,10 +305,11 @@ export const education = [
 ];
 
 export const projects = [
+  
   {
     id: 9,
     title: "Skill Instituto IT Services",
-    date: "Jan 2018 - Jan 2018",
+    date: "May 2019",
     description:
       "Skill Instituto IT Services is a web application designed to provide a good IT knowledge. It provides a IT Services and Virtual Internships.",
     
@@ -320,145 +328,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
-        linkedin: "https://www.linkedin.com/in/hackerteja/",
-        github: "https://github.com/bhanut3ja/",
-      },
-    ],
-  },
-  {
-    id: 0,
-    title: "Cyber Software Solutions",
-    date: "Feb 2022 - Feb 2022",
-    description:
-      "Cyber Software Institute (CSI) is the only institution to provide end-to-end training to students. It was started with a vision to bridge the skill gap in the cyber security domain by creating with security professionals.",
-   
-    tags: [ 
-    "WordPress",
-    "HTML",
-    "CSS",
-    "React JS",
-    "PHP",
-    "MySQL",
-    "Elementor",],
-    category: "wordpress",
-    github: "#",
-    webapp: "https://csisolutions.in/",
-    member: [
-      {
-        name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
-        linkedin: "https://www.linkedin.com/in/hackerteja/",
-        github: "https://github.com/bhanut3ja/",
-      },
-    ],
-  },
-  {
-    id: 1,
-    title: "Learning Myriad",
-    date: "Nov 2022 - Nov 2022",
-    description:
-      "At Learning Myriad, We offer the best E-Learning solutions to all yours learning needs. We extend our services i.e edutional and corporate training for the higher educations institutions, corporate, and government agencies of any...",
-    
-      tags: [ 
-        "WordPress",
-        "HTML",
-        "CSS",
-        "React JS",
-        "PHP",
-        "MySQL",
-        "Elementor",
-      ],
-    category: "wordpress",
-    github: "#",
-    webapp: "https://learningmyriad.com/",
-    member: [
-      {
-        name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
-        linkedin: "https://www.linkedin.com/in/hackerteja/",
-        github: "https://github.com/bhanut3ja/",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Rainbow Water Purifier",
-    date: "Jul 2018 - Jul 2018",
-    description:
-      "All kinds of water purifiers available (Domestic and Commercial). All types of water purifying plants sales & services.  Supply through all over INDIA.",
-   
-      tags: [ 
-        "WordPress",
-        "HTML",
-        "CSS",
-        "React JS",
-        "PHP",
-        "MySQL",
-        "Elementor",
-      ],
-    category: "wordpress",
-    github: "#",
-    webapp: "http://rainbowwaterpurifier.epizy.com/",
-    member: [
-      {
-        name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
-        linkedin: "https://www.linkedin.com/in/hackerteja/",
-        github: "https://github.com/bhanut3ja/",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Best Careers India",
-    date: "Feb 2021 - Feb 2021",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-   tags: [ 
-        "WordPress",
-        "HTML",
-        "CSS",
-        "React JS",
-        "PHP",
-        "MySQL",
-        "Elementor",
-      ],
-    category: "wordpress",
-    github: "#",
-    webapp: "https://bestcareersindia.com/",
-    member: [
-      {
-        name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
-        linkedin: "https://www.linkedin.com/in/hackerteja/",
-        github: "https://github.com/bhanut3ja/",
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "Lapdoc",
-    date: "Aug 2019 - Aug 2019",
-    description:
-      "We are specialized in laptop service and have repaired thousands of laptops with 100s of different laptop issues. Starting from Keyboard issues to the Motherboard Chip level of services. We can fix it All! as long as it can be fixed",
-    
-      tags: [ 
-        "WordPress",
-        "HTML",
-        "CSS",
-        "React JS",
-        "PHP",
-        "MySQL",
-        "Elementor",
-      ],
-    category: "wordpress",
-    github: "#",
-    webapp: "https://www.lapdoc.in/",
-    member: [
-      {
-        name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -486,7 +356,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -514,7 +384,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -525,7 +395,7 @@ export const projects = [
     title: "SSE Metals",
     date: "Apr 2024 - May 2024",
     description:
-      "",
+      "SSE Metals specializes in a range of high-quality metal products including aluminum, stainless steel, and brass sheets, coils, and extrusions.We provide solutions for various industries such as construction, automotive, and manufacturing.",
     
       tags: [ 
         "WordPress",
@@ -542,7 +412,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -570,12 +440,207 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
     ],
   },
+  {
+    id: 16,
+    title: "ITS YOSO",
+    date: "Mar 2025",
+    description:
+      "The platform we wish we had, so we built it for you! YOSO redefines e-commerce where E stands for Experiential. We bridge the gap between online convenience and offline engagement, delivering a seamless shopping journey that combines the best of both worlds.",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://itsyoso.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "GCGT ( Golden Care General Trading )",
+    date: "Dec 2024",
+    description:
+      "The business is a leading supplier of premium engineering materials for hospitality and facility management industries in Dubai. The business has been providing customized procurement and engineering solutions to clients since 1988.",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://gcgtdxb.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 0,
+    title: "Cyber Software Solutions",
+    date: "Feb 2022 - Feb 2022",
+    description:
+      "Cyber Software Institute (CSI) is the only institution to provide end-to-end training to students. It was started with a vision to bridge the skill gap in the cyber security domain by creating with security professionals.",
+   
+    tags: [ 
+    "WordPress",
+    "HTML",
+    "CSS",
+    "React JS",
+    "PHP",
+    "MySQL",
+    "Elementor",],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://csisolutions.in/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Learning Myriad",
+    date: "Nov 2022 - Nov 2022",
+    description:
+      "At Learning Myriad, We offer the best E-Learning solutions to all yours learning needs. We extend our services i.e edutional and corporate training for the higher educations institutions, corporate, and government agencies of any...",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://learningmyriad.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Rainbow Water Purifier",
+    date: "Jul 2018 - Jul 2018",
+    description:
+      "All kinds of water purifiers available (Domestic and Commercial). All types of water purifying plants sales & services.  Supply through all over INDIA.",
+   
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "http://rainbowwaterpurifier.epizy.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Best Careers India",
+    date: "Feb 2021 - Feb 2021",
+    description:
+      "Best Careers India is a leading Business services provider, leveraging our extensive domain knowledge and future-ready digital platforms to drive client productivity through Quality solutions.",
+   tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://bestcareersindia.com/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Lapdoc",
+    date: "Aug 2019 - Aug 2019",
+    description:
+      "We are specialized in laptop service and have repaired thousands of laptops with 100s of different laptop issues. Starting from Keyboard issues to the Motherboard Chip level of services. We can fix it All! as long as it can be fixed",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://www.lapdoc.in/",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  
   // React
   {
     id: 4,
@@ -591,7 +656,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -618,7 +683,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -646,7 +711,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -673,7 +738,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -699,7 +764,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -721,7 +786,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -730,9 +795,9 @@ export const projects = [
   {
     id: 8,
     title: "Certificate Verification",
-    date: "Jan 2018 - Present",
+    date: "Jan 2019",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+      "Scan Qr to Verify Your Certificate",
    
     tags: ["PHP", "Excel", "PhotoShop",],
     category: "php",
@@ -741,7 +806,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
@@ -752,7 +817,7 @@ export const projects = [
     title: "FinVedic",
     date: "Nov 2022",
     description:
-      "",
+      "Finvedic is a FinTech based EdTech platform that specializes in offering trainings on FinTech",
     tags: ["Adobe XD", "PhotoShop"],
     category: "uidesign",
     github: "#",
@@ -760,7 +825,7 @@ export const projects = [
     member: [
       {
         name: "V Bhanu Teja",
-        img: "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
         linkedin: "https://www.linkedin.com/in/hackerteja/",
         github: "https://github.com/bhanut3ja/",
       },
