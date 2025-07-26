@@ -251,27 +251,6 @@ export const experiences = [
     ], 
   },
 
-  {
-    id: 2,
-    img: "https://skillinstituto.com/wp-content/uploads/2023/09/SIITS-Mockup-2.png",
-    role: "Wordpress Internship",
-    company: "Skill Instituto IT Services",
-    date: "MAY 2019 - Oct 2019 · 6 mos",
-    desc: "",
-    skills: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "React",
-      "PHP",
-      "MySQL",
-      "FireBase",
-      "WP Multisite",
-      "Adobe XD",
-      "Figma",
-    ], 
-  },
 ];
 
 export const education = [
