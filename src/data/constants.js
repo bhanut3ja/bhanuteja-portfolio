@@ -335,6 +335,34 @@ export const projects = [
     ],
   },
   {
+    id: 18,
+    title: "Orbis Cloud",
+    date: "Jun 2025 - Jul 2025",
+    description:
+      "Empowering Healthcare with Tailored Solutions, Cyber Security & IT Managed Services.",
+    
+      tags: [ 
+        "WordPress",
+        "HTML",
+        "CSS",
+        "React JS",
+        "PHP",
+        "MySQL",
+        "Elementor",
+      ],
+    category: "wordpress",
+    github: "#",
+    webapp: "https://orbiscloud.ae",
+    member: [
+      {
+        name: "V Bhanu Teja",
+        img: "https://img.freepik.com/premium-vector/male-face-avatar-icon-set-flat-design-social-media-profiles_1281173-3806.jpg?semt=ais_hybrid&w=740",
+        linkedin: "https://www.linkedin.com/in/hackerteja/",
+        github: "https://github.com/bhanut3ja/",
+      },
+    ],
+  },
+  {
     id: 12,
     title: "Shabbir Enterprices",
     date: "Dec 2023 - Jan 2024",
